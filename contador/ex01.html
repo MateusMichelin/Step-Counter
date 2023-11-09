@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    
+    <header>
+        <h1 id="title-1">Vamos contar os passos</h1>
+    </header>
+    <section id="box">
+      <p>
+        Início: <input type="number" id="start" required>
+      </p>
+      <p>
+        Fim: <input type="number" id="end" required>
+      </p>
+      <p>
+        Passos: <input type="number" id="walks" >
+      </p>
+       <input id="botao1" type="button" value="Checar" onclick="checar()">
+       <p id="res_text">Calculando seus passos...</p>
+       <div id="res_img"></div>
+    </section>
+    <p id="p2">&copy; CursoEmVídeo | Aluno: Mateus</p>
+</body>
+</html>
